@@ -1,7 +1,8 @@
-# Python version confirm
+# Python version confirm 2.7
 python -v
 
 # install
+mkdir data
 curl https://sdk.cloud.google.com | bash
 
 ./data/google-cloud-sdk/install.sh
