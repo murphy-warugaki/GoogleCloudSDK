@@ -1,8 +1,9 @@
-# Python version confirm
+# Python version confirm 2.7
 python -v
 
 # install
 brew install wget
+mkdir data
 curl https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-158.0.0-darwin-x86_64.tar.gz | tar zx -C ./data/
 
 ./data/google-cloud-sdk/install.sh
@@ -12,4 +13,5 @@ curl https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk
 
 gcloud init
 gcloud auth login
+
 # fin
