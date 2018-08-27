@@ -2,7 +2,6 @@
 python -v
 
 # install
-brew install wget
 mkdir data
 curl https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-158.0.0-darwin-x86_64.tar.gz | tar zx -C ./data/
 
